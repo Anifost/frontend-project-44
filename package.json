@@ -2,28 +2,6 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "type": "module",
-  "description": "[![Actions Status](https://github.com/Anifost/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Anifost/frontend-project-44/actions)",
-  "main": "index.js",
-  "simple-git-hooks": {
-    "pre-push": "make lint"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "npx eslint .",
-    "start": "node bin/brain-games.js",
-    "brain-even": "node bin/brain-even.js",
-    "brain-calc": "node bin/brain-calc.js",
-    "brain-gcd": "node bin/brain-gcd.js",
-    "brain-progression": "node bin/brain-progression.js",
-    "brain-prime": "node bin/brain-prime.js"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "eslint": "^8.56.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.29.1"
-  },
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -32,13 +10,27 @@
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
   },
-  "dependencies": {
-    "brain-even": "^1.0.0",
-    "brain-games": "^1.1.5",
-    "readline-sync": "^1.4.10"
+  "description": "[![Actions Status](https://github.com/QueOtas/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/QueOtas/frontend-project-44/actions)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:Anifost/frontend-project-44.git"
+    "url": "git+ssh://git@github.com/QueOtas/frontend-project-44.git"
+  },
+  "author": "QueOtas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/QueOtas/frontend-project-44/issues"
+  },
+  "homepage": "https://github.com/QueOtas/frontend-project-44#readme",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.29.1"
   }
 }
